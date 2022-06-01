@@ -1,0 +1,42 @@
+.CountEnemy {
+    height: 43px;
+    width: 54px;
+    font-size: 27px;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.42);
+    color: rgb(255, 255, 255);
+    -unity-text-outline-color: rgba(255, 255, 255, 0);
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+.button-main-page {
+    width: 29%;
+    height: 97px;
+    font-size: 61px;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/Fonts/ka1.ttf?fileID=12800000&guid=b26e78aa12703f942855845ecaa8343d&type=3#ka1');
+    -unity-font-definition: none;
+    background-color: rgba(88, 88, 88, 0);
+    margin-top: 1px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+.button-main-page:hover {
+    width: 29%;
+    height: 97px;
+    font-size: 61px;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/Fonts/ka1.ttf?fileID=12800000&guid=b26e78aa12703f942855845ecaa8343d&type=3#ka1');
+    -unity-font-definition: none;
+    background-color: rgba(88, 88, 88, 0);
+    margin-top: 1px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    color: rgba(223, 173, 0, 255);
+}

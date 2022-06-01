@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MyStyles.uss?fileID=7433441132597879392&amp;guid=7dc58e5eb4408964ebcdc2ea8b2f5e43&amp;type=3#MyStyles" />
+    <ui:VisualElement name="Cont-Enemys" style="width: 100%; height: 100%; align-items: flex-start; flex-direction: row; background-color: rgba(0, 0, 0, 0); display: flex; justify-content: flex-end;">
+        <ui:VisualElement style="height: 68px; width: 77px; background-image: url(&apos;project://database/Assets/Sprites/Personajes/enemy2.png?fileID=1355223782&amp;guid=db0fc778c036a1c49bbdcd68f2560766&amp;type=3#enemy2_1&apos;);" />
+        <ui:Label display-tooltip-when-elided="true" name="ContadorEnemigosFlying" class="CountEnemy" />
+        <ui:VisualElement style="height: 68px; width: 112px; background-image: url(&apos;project://database/Assets/Sprites/Personajes/enemy1.png?fileID=-1533729025&amp;guid=105a7131ceb94a34d9a15be2001205e6&amp;type=3#enemy1_0&apos;); -unity-background-scale-mode: scale-and-crop;" />
+        <ui:Label display-tooltip-when-elided="true" name="ContadorEnemigosStatic" class="CountEnemy" style="opacity: 1;" />
+    </ui:VisualElement>
+</ui:UXML>
